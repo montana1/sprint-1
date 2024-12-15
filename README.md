@@ -29,3 +29,9 @@
 	- AddPlacePopup
 	- Card
 	- ImagePopup
+
+
+
+Задание №2
+
+Решение задания - https://github.com/montana1/sprint-1/blob/sprint_1/task2_solutiondrawio
