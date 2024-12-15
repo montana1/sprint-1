@@ -64,7 +64,9 @@ module.exports = (_, argv) => ({
     new ModuleFederationPlugin({
       name: "host",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {"cardsfunc-microfrontend": "cardfunc-microfrontend@http://127.0.0.1:8083/cards/cardsIndex.js",
+        "profile-microfrontend": "profile-microfrontend@http://127.0.0.1:8082/profile/profileIndex.js",
+        "auth-microfrontend": "auth-microfrontend@http://127.0.0.1:8081/auth/authIndex.js",},
       exposes: {},
       shared: {
         ...deps,

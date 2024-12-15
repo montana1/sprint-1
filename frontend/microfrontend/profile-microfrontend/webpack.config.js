@@ -65,7 +65,7 @@ module.exports = (_, argv) => ({
       name: "profile_microfrontend",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {'./EditAvatarPopup':'./src/components/EditAvatarPopup.js', './EditProfilePopup':'./src/components/EditProfilePopup.js'},
+      exposes: {'./EditAvatarPopup':'./src/components/EditAvatarPopup.js', './EditProfilePopup':'./src/components/EditProfilePopup.js', './InfoToolTip':'./src/components/InfoToopTip.js'},
       shared: {
         ...deps,
         react: {
