@@ -65,7 +65,7 @@ module.exports = (_, argv) => ({
       name: "auth_microfrontend",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {'./Login':'./src/components/Login','./Register':'./src/components/Register'},
       shared: {
         ...deps,
         react: {
